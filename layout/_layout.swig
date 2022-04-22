@@ -108,11 +108,6 @@
   <!-- Tidio 在线联系功能、鼠标点击特效、页面反馈...-->
   {% include '_custom/custom.swig' %}
 
-  <!-- 看板娘 -->
-  {% if theme.live2d.enable %}
-      <script async src="/live2d-widget/autoload.js"></script>
-  {% endif %}
-
   {% if theme.aplayer.enable %}
       <!-- aplayer音频播放 -->
       <link rel="stylesheet" href="/dist/APlayer.min.css">
